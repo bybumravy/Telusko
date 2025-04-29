@@ -1,0 +1,27 @@
+<form action="/api/product" method="post" enctype="multipart/form-data">
+    <label for="name">Tên Sản Phẩm:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="brand">Hãng:</label>
+    <input type="text" id="brand" name="brand" required><br><br>
+
+    <label for="price">Giá:</label>
+    <input type="number" id="price" name="price" required><br><br>
+
+    <label for="category">Loại:</label>
+    <input type="text" id="category" name="category" required><br><br>
+
+    <label for="releaseDate">Ngày Ra Mắt:</label>
+    <input type="date" id="releaseDate" name="releaseDate" required><br><br>
+
+    <label for="available">Có Sẵn:</label>
+    <input type="checkbox" id="available" name="available"><br><br>
+
+    <label for="quantity">Số Lượng:</label>
+    <input type="number" id="quantity" name="quantity" required><br><br>
+
+    <label for="image">Hình Ảnh:</label>
+    <input type="file" id="image" name="image" accept="image/*"><br><br>
+
+    <button type="submit">Gửi</button>
+</form>

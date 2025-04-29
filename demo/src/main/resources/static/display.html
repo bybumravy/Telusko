@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+</head>
+<body>
+    <h1>Product Details</h1>
+
+    <!-- Thông tin sản phẩm -->
+    <div id="productDetails">
+        <h2 th:text="${product.name}"></h2>
+        <p><strong>Brand:</strong> <span th:text="${product.brand}"></span></p>
+        <p><strong>Price:</strong> <span th:text="${product.price}"></span></p>
+        <p><strong>Category:</strong> <span th:text="${product.category}"></span></p>
+        <p><strong>Available:</strong> <span th:text="${product.available ? 'Yes' : 'No'}"></span></p>
+        <p><strong>Quantity:</strong> <span th:text="${product.quantity}"></span></p>
+        <p><strong>Release Date:</strong> <span th:text="${product.releaseDate}"></span></p>
+    </div>
+
+    <!-- Hình ảnh sản phẩm -->
+    <img th:src="'data:' + ${product.imageType} + ';base64,' + ${product.imageBase64}" alt="Product Image" style="max-width: 300px;" />
+</body>
+</html>
