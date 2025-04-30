@@ -2,22 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring (2)" />
-        <module name="B6" />
+        <module name="B13" />
         <module name="Spring (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="B5-6" target="17" />
+      <module name="B6" target="17" />
       <module name="Spring" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="B13" options="-parameters" />
       <module name="B5-6" options="-parameters" />
       <module name="B6" options="-parameters" />
     </option>
