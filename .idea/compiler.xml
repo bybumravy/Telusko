@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring (2)" />
-        <module name="B13" />
         <module name="Spring (1)" />
+        <module name="B18" />
+        <module name="B13" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="B13" options="-parameters" />
+      <module name="B18" options="-parameters" />
       <module name="B5-6" options="-parameters" />
       <module name="B6" options="-parameters" />
     </option>
