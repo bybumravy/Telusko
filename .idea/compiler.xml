@@ -11,13 +11,15 @@
         <module name="Lesson6" />
         <module name="Lesson18" />
       </profile>
-      <profile name="Annotation profile for Lesson21" enabled="true">
+      <profile name="Annotation profile for Lesson28" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
+        <module name="Lesson28" />
+        <module name="Lesson25" />
         <module name="Lesson21" />
       </profile>
     </annotationProcessing>
@@ -26,6 +28,8 @@
       <module name="Lession5" target="17" />
       <module name="Lesson18" target="17" />
       <module name="Lesson21" target="17" />
+      <module name="Lesson25" target="17" />
+      <module name="Lesson28" target="17" />
       <module name="Lesson5" target="17" />
       <module name="Lesson6" target="17" />
     </bytecodeTargetLevel>
@@ -36,6 +40,8 @@
       <module name="Lession5" options="-parameters" />
       <module name="Lesson18" options="-parameters" />
       <module name="Lesson21" options="-parameters" />
+      <module name="Lesson25" options="-parameters" />
+      <module name="Lesson28" options="-parameters" />
       <module name="Lesson5" options="-parameters" />
       <module name="Lesson6" options="-parameters" />
     </option>
