@@ -1,4 +1,4 @@
-let count = 0;
+t count = 0;
 const countLabel = document.getElementById("countLabel");
 
 function increaseCount() {
