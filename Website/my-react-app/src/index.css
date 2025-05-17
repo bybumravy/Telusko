@@ -1,0 +1,41 @@
+.card {
+  /* Tạo một đường viền mỏng, liền nét, màu xám nhạt */
+  border: 1px solid hsl(0, 0%, 80%);
+
+  /* Bo tròn các góc với bán kính 10 pixel */
+  border-radius: 10px;
+
+  /* Thêm hiệu ứng đổ bóng nhẹ xung quanh hộp */
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+
+  /* Tạo khoảng cách 20 pixel bên trong hộp */
+  padding: 20px;
+
+  /* Tạo khoảng cách 10 pixel bên ngoài hộp */
+  margin: 10px;
+
+  /* Căn giữa nội dung văn bản bên trong hộp */
+  text-align: center;
+
+  /* Đảm bảo chiều rộng tối đa của hộp là 250 pixel */
+  max-width: 250px;
+
+  /* Hiển thị phần tử như một khối nội tuyến */
+  display: inline-block;
+}
+.card .card-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card .card-title {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+.card .card-text {
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+}
