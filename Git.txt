@@ -1,0 +1,43 @@
+- git config --global user.name '' (tạo tên, pass)
+- cat ~/.gitcon
+- git init ( khởi tạo kho lưu trữ trống - repo)
+- git status (trạng thái file trong thư mục)
+- Khái niệm Staging Area: khu vực để theo dõi những file được thực hiện trong lần commit tiếp theo
+- git add (file) (.) (đưa những thay đổi của file sang khu vực staging area)
+- git commit (những file trong khu vực staging area đưa sang git repo với nội dung là những thay đổi trong file đó)
++ git commit -m "add ... file"
++ git commit -m "update ... file"
++ git commit -m "resolve conflict" ( lưu sự thay đổi khi giải quyết conflict )
+- git log (xem lại những commit đã tạo)
++ Gồm tên địa chỉ của commit(hash), author, date, tên nội dung commit
++ git log --oneline: hiển thị trên 1 dòng
+- Tạo Git Repo trên Github
+- Kết nối Git Repo Local và Git Repo trên Server
+
+(…or create a new repository on the command line
+echo "# MyProject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ngoanhhelios1123/MyProject.git
+git push -u origin main)
+
+(…or push an existing repository from the command line
+git remote add origin https://github.com/Ngoanhhelios1123/MyProject.git
+git branch -M main
+git push -u origin main)
+
+Branch : là 1 nhánh để làm việc riêng mà không ảnh hưởng đến người khác, commit chỉ có trên branch này thôi, không ảnh hưởng đến branch khác
+- git branch (xem có những branch nào)
++ git branch -d (tên branch) (xoá branch)
+- git checkout -b (tên branch) (tạo 1 branch mới dựa trên main, có những commit trong main) 
++ git checkout (hash) :đến thời điểm trạng thái của địa chỉ của commit đó (VD: đến địa chỉ hash1 -> nội dung commit2 chưa có)
+- git reset
+- git restore --staged (file) (đưa về trạng thái đang làm việc không còn trong staging area)
+- git merge (branch muốn gộp) ( đưa những commit trong branch mới nhất vào main)
+- git checkout (file muốn chuyển sang) (chuyển sang branch khác)
+- git push ( đẩy những commit trên local repo lên remote repo (server))
+- git pull ( kéo code trên remote repo về local repo để user chọn 1 trong 2 phiên bản)
+- git pull origin (file)
+- .gitignore ( liệt kê những file không muốn đưa lên remote repo chung)
