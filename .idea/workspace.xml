@@ -37,8 +37,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "KhanhLinh",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/admin/Downloads/Test1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,6 +49,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Telusko" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Telusko" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,6 +82,8 @@
       <updated>1747643981557</updated>
       <workItem from="1747643982955" duration="85000" />
       <workItem from="1747644079088" duration="461000" />
+      <workItem from="1747647263582" duration="12000" />
+      <workItem from="1747647289881" duration="50000" />
     </task>
     <servers />
   </component>
